@@ -1,5 +1,7 @@
 # Week 3 – Introduction to MPI
 
+Note: I was unable to reconnect to the physics server after completing the practical work. Because of this, I was able to upload the write-up and results through GitHub in the browser, but was unable to commit the code.
+
 ## Part 1 – MPI Hello World
 
 For the first part of the practical, I created my own MPI Hello World program in C. The program initialised MPI, obtained the rank of each process and the total number of processes in `MPI_COMM_WORLD`, printed a message from each process, and then finalised MPI. This follows the practical requirement to create, compile, and run an MPI Hello World program using `mpicc` and `mpirun`.
